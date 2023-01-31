@@ -1,13 +1,24 @@
-import React from 'react'; //because JSX syntax is defined in React
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import './style.css'
+
+
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
+
+
+/*import React from 'react'; //because JSX syntax is defined in React
 import ReactDOM from 'react-dom';
 import Header from './Components/Header';
 import MainContent from './Components/MainContent';
 import Footer from './Components/Footer';
 import './index.css';
 
-
-
-function Page() {
+function App() {
   return(
     <div className='body'>
       <Header />
@@ -15,10 +26,9 @@ function Page() {
       <Footer />
     </div>
   )
-};
+};*/
 
-ReactDOM.render(<Page />, document.getElementById('root'));
-
+//ReactDOM.render(<App />, document.getElementById('root'));
 
 /*function ReactFacts() {
   return(
