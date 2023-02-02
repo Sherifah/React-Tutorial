@@ -1,12 +1,10 @@
 import React from "react";
 //import logo from '../Images/react-logo.png';
-import picture from '../Images/Rectangle 90.png'
 
 
 function Header() {
     return (
-      <header>
-        <img src={picture} className="card-name" alt="woman" />
+      <header>  
           {/*<nav className='nav'>
             <img src={logo} alt='' className='logo' />
             <ul className='nav-items'>
