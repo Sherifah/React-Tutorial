@@ -1,17 +1,16 @@
 import React from "react";
-import Info from "./Components/Info";
-import About from "./Components/About";
-import Interests from "./Components/Interests";
-import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import Card from "./Components/Card";
 
 
 function App() {
+    //<Hero />
     return(
       <div className="container">
-        <Info />
-        <About />
-        <Interests />
-        <Footer />
+        <Navbar />
+        
+        <Card />
       </div>
     )
  };

@@ -2,7 +2,7 @@ import React from "react";
 import picture from '../Images/Rectangle 90.png'
 import Email from "../Images/Mail.png";
 import LinkedIn from "../Images/linkedin.png";
-import "../style.css";
+
 
 function Info() {
     return(

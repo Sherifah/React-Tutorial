@@ -3,7 +3,7 @@ import Twitter from "../Images/Twitter Icon.png";
 import Facebook from "../Images/Facebook Icon.png";
 import Instagram from "../Images/Instagram Icon.png";
 import GitHub from "../Images/GitHub Icon.png";
-import "../style.css";
+
 
 
 function Footer() {
