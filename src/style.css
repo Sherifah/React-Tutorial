@@ -255,6 +255,11 @@ body {
 } */
 
 
+
+
+
+/* Airbnb clone */
+
 * {
   box-sizing: border-box;
 }
@@ -305,17 +310,38 @@ section {
 
 .hero--text {
   margin-top: 0;
-  width: 320px;
+  width: 420px;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
   color: #222222;
 }
 
+.cards-list {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px;
+  overflow-x: auto;
+  justify-content: center;
+}
+
 .card {
   width: 175px;
   font-size: 12px;
-  
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--img {
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card--stats {
@@ -335,4 +361,84 @@ section {
 
 .card > p {
   margin: 8px 0;
+} 
+
+.card--price {
+  margin-top: auto;
 }
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+
+
+
+/*Props Practice 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  background-color: whitesmoke;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-card {
+  flex-basis: 225px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.contact-card > img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.contact-card > h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.info-group {
+  display: flex;
+  align-items: center;
+}
+
+.info-group > img {
+  height: 11px;
+  margin-right: 8px;
+}
+
+.info-group > p {
+  margin-block: 3px;
+  font-size: 12px;
+  color: #2B283A;
+}
+*/
